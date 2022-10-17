@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <link rel="stylesheet" href="/styles/resets.css">
+        <link rel="stylesheet" href="/styles/base.css">
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/form.css">
+        <link rel="stylesheet" href="/styles/footer.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="">
+        <h1>Udacity NLP Project</h1>
+            </div>
+        </header>
+
+        <main>
+            <div class="about"><h2>About NLP: Natural Language Processing</h2><h3>Natural language processing (NLP) refers to the branch of computer science—and more specifically, the branch of artificial intelligence or AI—concerned with giving computers the ability to understand text and spoken words in much the same way human beings can. </h3>
+            <h4>This application make use of an API features that provides powerful and flexible AI-driven content analysis solution that showcase the power of NLP to users. </h4><h5>Try is Out! Type a web "Url" below to see its sentiment. </h5></div>
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="https://www.news-source/a-news...">
+                    <input type="submit" name="" value="Submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                </form>
+            <section>
+
+            <section>
+                <strong>Form Results:</strong>
+                <div id="polarity"></div>
+                <div id="agreement"></div>
+                <div id="subjectivity"></div>
+                <div id="confidence"></div>
+                <div id="irony"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>This is a footer</p>
+        </footer>
+
+    </body>
+    <!-- <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+       </script> -->
+</html>
